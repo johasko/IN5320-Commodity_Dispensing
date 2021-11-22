@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+    background: #f0f0f0;
+}
+.navcontainer {
+    display: inline-flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.sectioncontainer {
+    flex-grow: 1;
+    height: 100%;
+    padding: 70px 16px 26px 16px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.menu {
+    display: inline-flex !important;
+    align-items: center !important;
+    width: auto !important;
+    min-width: auto !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+.menuitem {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 3px !important;
+    background: white !important;
+    border-bottom: 3px transparent solid;
+}
